@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <title>Third_Course</title>
+      
+  </head>
+    
+  <body style="background-color: #263957;">
+  <div>
+    
+    <div id="navbar" class="all_text" style="font-size: 30px" class="all_text">
+        <a href="index.html"><strong>Home</strong></a>
+    </div> 
+       
+    <div id="note" class="all_text">
+      <h3>請先觀看前導片，再自由地從下方教學影片課程選擇一部開始觀看，最後完成三部影片的觀看。</h3>
+    </div>
+      
+    <div class="order">
+        <span style="white-space:pre">   </span><span class="line"></span>
+        <span style="white-space:pre">   </span><span class="txt" style="font-size: 30px"><b>課程內容說明</b></span>
+        <span style="white-space:pre">   </span><span class="line"></span>
+    </div>
+
+      
+    <div>
+      <center>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/wtnbYZzXKjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>    
+    </div>
+      
+    <div class="order">
+        <span style="white-space:pre">   </span><span class="line"></span>
+        <span style="white-space:pre">   </span><span class="txt" style="font-size: 30px"><b>課程影片選單</b></span>
+        <span style="white-space:pre">   </span><span class="line"></span>
+    </div>
+    
+  
+    <div class="button_grorps_one" style="text-align: center" >
+           <span class="button_green">
+              <span style="color: #326e3a">&nbsp;&nbsp;&nbsp;不是選項不是選項&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          </span>
+          <span class="button_blue" id="button_one_hover">
+              <a href="non_prob_video.html" style="color: white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;非機率抽樣&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a>
+          </span>
+          <span class="button_red">
+            <span style="color: #731f08">不是選項不是選項&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          </span> 
+    </div> 
+    
+    <div class="button_grorps_two" style="text-align: center">
+         <span class="button_red" id="button_two_hover">
+              <a href="system_video.html" style="color: white"><b>系統化抽樣與群集抽樣</b>&nbsp;</a>
+          </span>
+          <span class="button_green">
+            <span style="color: #326e3a">不是選項不是選項&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          </span>
+          <span class="button_blue">
+            <span  style="color: #32526e">不是選項不是選項&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          </span> 
+    </div>  
+      
+    <div class="button_grorps_third" style="text-align: center">
+          <span class="button_blue">
+            <span style="color: #32526e">不是選項不是選項&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+          </span>
+          <span class="button_red">
+            <span style="color: #731f08">不是選項不是選項&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          </span>
+          <span class="button_green" id="button_third_hover">
+              <a href="sample_video.html" style="color: white"><b>隨機抽樣與分層抽樣</b>&nbsp;</a>
+          </span> 
+    </div> 
+    
+    <div class="footer">
+         <p>2020 Experimental Video Website of Thesis</p>
+    </div> 
+      
+  </div>    
+  </body>
+    
+  <script>
+     
+      /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+      } else {
+      document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+      }
+      
+  </script>
+</html>

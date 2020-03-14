@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <title>系統化抽樣與群集抽樣</title>
+</head>
+     
+<body style="background-color: #263957;">
+    
+    <div id="navbar" class="all_text" style="font-size: 30px" class="all_text">
+        <a href="index.html"><strong>Home</strong></a>
+    </div> 
+    
+    <div id="note" class="all_text">
+    <h1>系統化抽樣與群集抽樣教學影片</h1>
+    </div>
+    
+    <center>
+    <div>
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/j4m5A4IqALU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </center>
+    
+    <div id="note" class="all_text">
+      <h2>請回上一頁進行其他影片觀看</h2>
+    </div>
+    
+    <div class="footer" id="top_adjust">
+         <p>2020 Experimental Video Website of Thesis</p>
+    </div>  
+
+</body>   
+    
+ <script>
+     
+      /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+      } else {
+      document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+      }
+      
+  </script>
+    
+</html>
